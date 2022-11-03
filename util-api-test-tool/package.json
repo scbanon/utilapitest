@@ -1,0 +1,30 @@
+{
+  "name": "infrastructure",
+  "version": "0.1.0",
+  "bin": {
+    "infrastructure": "bin/infrastructure.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "ts-node": "^8.1.0",
+    "@types/node": "^10.17.27",    
+    "typescript": "~3.9.7",
+    "aws-cdk": "^2.28.1",
+    "aws-cdk-lib": "^2.28.1",
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "constructs": "^10.0.0",
+    "@types/jest": "^26.0.16",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0"
+  },
+  "peerDependencies": {
+    "aws-cdk-lib": "^2.28.1",
+    "constructs": "^10.0.0"
+  }
+}
